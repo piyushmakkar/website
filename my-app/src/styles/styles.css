@@ -1,0 +1,275 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light background */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #5a2d82; /* Purple tone */
+}
+
+header nav a {
+    color: #333333; /* Dark text */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #5a2d82; /* Purple tone hover */
+}
+
+.btn-primary {
+    background-color: #5a2d82; /* Purple tone */
+    border-color: #5a2d82;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #472464; /* Darker purple */
+    border-color: #472464;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e9ecef; /* Light gray background */
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh;
+}
+.hero .hero-content h1 {
+    color: #5a2d82;
+}
+.hero .hero-content span {
+    color: #5a2d82; /* Bootstrap blue */
+}
+.hero .hero-buttons a {
+    margin: 5px 10px;
+}
+
+/* Info Section */
+.info-section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.info-section .info-text h2 {
+    color: #5a2d82;
+}
+.info-section .info-text span {
+    color: #5a2d82;
+}
+.info-section .info-text a {
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav {
+        text-align: center;
+    }
+
+    .hero .hero-content, .info-section .info-text {
+        text-align: center;
+    }
+
+    .hero-buttons, .info-text a {
+        display: block;
+    }
+}
+.menu-section {
+    background-color: #f9f9f9;
+  }
+  
+  .menu-section .highlight {
+    color: #7a40f2;
+  }
+  
+  .menu-section .btn-category {
+    color: #7a40f2;
+    background-color: transparent;
+    border: 1px solid #7a40f2;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-section .btn-category.active,
+  .menu-section .btn-category:hover {
+    background-color: #7a40f2;
+    color: white;
+  }
+  
+  .menu-section .menu-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-section .menu-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-section .card img {
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  /* Services Section Styles */
+.services-section {
+    background-color: #ffffff; /* White background */
+}
+
+.services-section .highlight {
+    color: #5a2d82; /* Purple tone */
+    font-weight: bold;
+}
+
+.service-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.service-card .icon img {
+    max-width: 80px;
+}
+
+.service-card h5 {
+    color: #343a40; /* Dark gray */
+    margin-top: 15px;
+}
+
+.service-card p {
+    color: #6c757d; /* Light gray */
+    font-size: 14px;
+}
+
+.learn-more {
+    color: #5a2d82; /* Purple tone */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.learn-more:hover {
+    color: #472464; /* Darker purple */
+}
+/* Why Choose Us Section Styles */
+.choose-us-section {
+    background-color: #ffffff; /* White background */
+}
+
+.choose-us-section .small-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.choose-us-section .highlight {
+    color: #5a2d82; /* Purple tone */
+    font-weight: bold;
+}
+
+.choose-us-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.choose-us-section .stats h4 {
+    color: #343a40; /* Dark gray */
+}
+
+.choose-us-section .stats p {
+    color: #6c757d; /* Light gray */
+    margin-bottom: 0;
+}
+
+.choose-us-section .btn-primary {
+    background-color: #5a2d82;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.choose-us-section .btn-primary:hover {
+    background-color: #472464; /* Darker purple */
+}
+
+.choose-us-section .image-wrapper img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Footer Styles */
+.footer-section {
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Text color */
+}
+
+.footer-section h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #5a2d82; /* Highlight color */
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #6c757d; /* Link color */
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #343a40; /* Hover link color */
+}
+
+.newsletter-form .form-control {
+    border-radius: 0;
+    border: 1px solid #dee2e6;
+}
+
+.newsletter-form .btn-primary {
+    background-color: #5a2d82;
+    border: none;
+    padding: 10px 20px;
+}
+
+.newsletter-form .btn-primary:hover {
+    background-color: #472464; /* Darker hover color */
+}
+
+.footer-brand .footer-logo {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.footer-section hr {
+    border-color: #dee2e6;
+}
+
+.footer-section .text-muted {
+    font-size: 12px;
+}
+
+.company-name{
+    color:  #046340;
+}
