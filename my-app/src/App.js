@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/styles.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Optional for Bootstrap JS features
+import "./styles/styles.css"; // Your custom styles
 import Header from "./components/Header";
 import About from "./components/About";
 import Menu from "./components/Menu";
