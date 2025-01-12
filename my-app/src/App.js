@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Optional for Bootstrap JS
 import "./styles/styles.css"; // Your custom styles
 import Header from "./components/Header";
 import About from "./components/About";
-import Menu from "./components/Menu";
+import Products from "./components/Products";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Header />
       <About />
-      <Menu />
+      <Products />
       <Footer />
     </div>
   );

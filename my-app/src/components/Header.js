@@ -2,13 +2,38 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="d-flex justify-content-between align-items-center p-3 bg-white shadow-sm">
-      <h1 className="company-name">Alka Industries</h1>
-      <nav>
-        <a href="#about" className="text-dark mx-2 fw-bold text-decoration-none">About</a>
-        <a href="#blog" className="text-dark mx-2 fw-bold text-decoration-none">Blog</a>
-        <a href="#pricing" className="text-dark mx-2 fw-bold text-decoration-none">Pricing</a>
-        <a href="#contact" className="text-dark mx-2 fw-bold text-decoration-none">Contact Us</a>
+    <header className="bg-white shadow-sm">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white">
+        <div className="container-fluid">
+          <h1 className="navbar-brand" >Alka Industries</h1>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link text-dark fw-bold" href="#about">About Us</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-dark fw-bold" href="#blog">Products</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-dark fw-bold" href="#pricing">Services</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-dark fw-bold" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
   );

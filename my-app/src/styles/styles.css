@@ -243,12 +243,16 @@ header nav a:hover {
 .newsletter-form .form-control {
     border-radius: 0;
     border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .newsletter-form .btn-primary {
     background-color: #5a2d82;
     border: none;
-    padding: 10px 20px;
+    margin-left: 25%;
 }
 
 .newsletter-form .btn-primary:hover {
@@ -268,8 +272,4 @@ header nav a:hover {
 
 .footer-section .text-muted {
     font-size: 12px;
-}
-
-.company-name{
-    color:  #046340;
 }
