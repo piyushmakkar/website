@@ -1,0 +1,56 @@
+.footer-section {
+    height: 50vh; /* Fixed height instead of max-height */
+    overflow: hidden;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.footer-section h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #5a2d82; /* Highlight color */
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #6c757d; /* Link color */
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #343a40; /* Hover link color */
+}
+
+.newsletter-form .form-control {
+    border-radius: 0;
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form .btn-primary {
+    background-color: #5a2d82;
+    border: none;
+    margin-left: 25%;
+}
+
+.newsletter-form .btn-primary:hover {
+    background-color: #472464; /* Darker hover color */
+}
+
+.footer-brand .footer-logo {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.footer-section hr {
+    border-color: #dee2e6;
+}
+
+.footer-section .text-muted {
+    font-size: 12px;
+}

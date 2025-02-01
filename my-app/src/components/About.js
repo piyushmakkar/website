@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/styles.css";
 const About = () => {
   return (
     <>
@@ -43,7 +43,6 @@ const About = () => {
             innovation allows us to provide innovative products that enhance the consumer
             experience. 
           </p>
-          <a href="#offers" className="btn btn-primary">Latest Offers</a>
         </div>
       </section>
     </>

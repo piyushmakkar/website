@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/footer.css";
 
 const Footer = () => {
   return (
@@ -8,27 +9,18 @@ const Footer = () => {
           <div className="col-md-3">
             <h6 className="fw-bold">MAIN</h6>
             <ul className="list-unstyled mt-3">
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">About Us</a></li>
             </ul>
           </div>
           <div className="col-md-3">
             <h6 className="fw-bold">PRODUCT</h6>
             <ul className="list-unstyled mt-3">
-              <li><a href="#">Personal</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Team</a></li>
+
             </ul>
           </div>
           <div className="col-md-3">
-            <h6 className="fw-bold">LEGAL</h6>
+            <h6 className="fw-bold">SERVICES</h6>
             <ul className="list-unstyled mt-3">
-              <li><a href="#">GDPR</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Disclaimer</a></li>
+
             </ul>
           </div>
           <div className="col-md-3">
