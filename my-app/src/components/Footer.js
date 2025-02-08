@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="contact" className="footer-section py-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-1">
+          <div className="col-md-3">
             <h6 className="fw-bold">Industries we cater to</h6>
             <ul className="mt-3">
               <li>
