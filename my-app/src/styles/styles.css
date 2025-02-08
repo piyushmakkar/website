@@ -6,63 +6,80 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Light background */
+    background-color: #f8f9fa;
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    color: #5a2d82; /* Purple tone */
+    color: #5a2d82;
 }
 
 header nav a {
-    color: #333333; /* Dark text */
+    color: #333333;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 header nav a:hover {
-    color: #5a2d82; /* Purple tone hover */
+    color: #5a2d82;
 }
 
 .btn-primary {
-    background-color: #5a2d82; /* Purple tone */
+    background-color: #5a2d82;
     border-color: #5a2d82;
     color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #472464; /* Darker purple */
+    background-color: #472464;
     border-color: #472464;
 }
 
-/* Hero Section */
+/* Hero Section - Adjusted spacing */
 .hero {
-    background-color: #e9ecef; /* Light gray background */
-    padding: 50px 20px;
+    background-color: #e9ecef;
+    padding: 20px; /* Reduced padding */
     text-align: center;
     height: 100vh;
+    display: flex; /* Added flex */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
 }
-.hero .hero-content h1 p{
+
+.hero .hero-content {
+    margin-top: -50px; /* Adjust this value to move content up */
+}
+
+.hero .hero-content h1 p {
     color: #5a2d82;
     margin-left: 20px;
+    margin-top: 0; /* Remove top margin */
 }
+
 .hero .hero-content span {
-    color: #5a2d82; /* Bootstrap blue */
+    color: #5a2d82;
 }
+
+.hero .hero-buttons {
+    margin-top: 20px; /* Add specific margin for buttons */
+}
+
 .hero .hero-buttons a {
     margin: 5px 10px;
 }
-.hero .hero-para span{
+
+.hero .hero-para span {
     color: #212529;
     font-weight: bold;
 }
+
 /* Large screens only */
 @media (min-width: 1024px) {
     .hero-image {
@@ -73,6 +90,7 @@ header nav a:hover {
         width: 65%;
     }
 }
+
 /* Info Section */
 .info-section {
     background-color: #ffffff;
@@ -80,12 +98,15 @@ header nav a:hover {
     text-align: center;
     height: 100vh;
 }
+
 .info-section .info-text h2 {
     color: #5a2d82;
 }
+
 .info-section .info-text span {
     color: #5a2d82;
 }
+
 .info-section .info-text a {
     margin-top: 15px;
 }
@@ -96,16 +117,26 @@ header nav a:hover {
         text-align: center;
     }
 
-    .hero .hero-content, .info-section .info-text {
+    .hero {
+        padding: 10px; /* Less padding on mobile */
+    }
+
+    .hero .hero-content {
+        margin-top: -30px; /* Less negative margin on mobile */
+    }
+
+    .hero .hero-content, 
+    .info-section .info-text {
         text-align: center;
     }
 
-    .hero-buttons, .info-text a {
+    .hero-buttons, 
+    .info-text a {
         display: block;
     }
 }
 
-.header-image{
+.header-image {
     margin-left: 10px;
     height: 11vh;
 }

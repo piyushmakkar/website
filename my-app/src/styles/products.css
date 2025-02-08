@@ -38,13 +38,14 @@
   }
 
   /* Services Section Styles */
+/* Original CSS remains the same */
 .services-section {
     height: 100vh;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
 }
 
 .services-section .highlight {
-    color: #5a2d82; /* Purple tone */
+    color: #5a2d82;
     font-weight: bold;
 }
 
@@ -67,67 +68,85 @@
 }
 
 .service-card h5 {
-    color: #343a40; /* Dark gray */
+    color: #343a40;
     margin-top: 15px;
 }
 
 .service-card p {
-    color: #6c757d; /* Light gray */
+    color: #6c757d;
     font-size: 14px;
 }
 
 .learn-more {
-    color: #5a2d82; /* Purple tone */
+    color: #5a2d82;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .learn-more:hover {
-    color: #472464; /* Darker purple */
-}
-/* Why Choose Us Section Styles */
-.choose-us-section {
-    background-color: #ffffff; /* White background */
+    color: #472464;
 }
 
-.choose-us-section .small-text {
-    font-size: 12px;
-    font-weight: bold;
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .services-section {
+        height: auto; /* Change from fixed height to auto for mobile */
+        padding: 40px 20px; /* Add padding for better spacing */
+    }
+
+    .service-card {
+        margin-bottom: 30px; /* Add space between cards */
+        padding: 15px; /* Add internal padding */
+    }
+
+    .service-card img {
+        max-width: 100%; /* Full width on mobile */
+        height: 30vh; /* Reduced height for mobile */
+    }
+
+    .service-card h5 {
+        font-size: 18px; /* Slightly smaller heading */
+        margin-top: 10px;
+    }
+
+    .service-card p {
+        font-size: 13px; /* Slightly smaller text */
+        line-height: 1.5;
+    }
 }
 
-.choose-us-section .highlight {
-    color: #5a2d82; /* Purple tone */
-    font-weight: bold;
+/* Small mobile devices */
+@media (max-width: 576px) {
+    .services-section {
+        padding: 30px 15px; /* Smaller padding for very small screens */
+    }
+
+    .service-card img {
+        height: 25vh; /* Even smaller height for small devices */
+    }
+
+    .service-card {
+        margin-bottom: 20px; /* Less space between cards */
+        padding: 12px; /* Smaller padding */
+    }
+
+    .service-card:hover {
+        transform: none; /* Disable hover effect on mobile */
+    }
+
+    .service-card h5 {
+        font-size: 16px; /* Even smaller heading */
+    }
+
+    .service-card p {
+        font-size: 12px; /* Even smaller text */
+    }
 }
 
-.choose-us-section p {
-    font-size: 16px;
-    line-height: 1.6;
+/* Tablet devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .service-card img {
+        max-width: 30vw; /* Larger width for tablets */
+        height: 35vh; /* Adjusted height for tablets */
+    }
 }
-
-.choose-us-section .stats h4 {
-    color: #343a40; /* Dark gray */
-}
-
-.choose-us-section .stats p {
-    color: #6c757d; /* Light gray */
-    margin-bottom: 0;
-}
-
-.choose-us-section .btn-primary {
-    background-color: #5a2d82;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.choose-us-section .btn-primary:hover {
-    background-color: #472464; /* Darker purple */
-}
-
-.choose-us-section .image-wrapper img {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
