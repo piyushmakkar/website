@@ -7,19 +7,17 @@ const About = () => {
         id="about"
         className="about hero d-flex align-items-center justify-content-between p-5 bg-light flex-wrap"
       >
-        <div className="hero-content col-lg-6 col-md-12">
+        <div className="hero-content col-lg-6 col-md-12 col-sm-12">
           <h1 className="display-4 text-dark">
-            Affordable & Sustainable <span className="">Industrial Solutions.</span>
+            Affordable & Sustainable <span>Industrial Solutions.</span>
           </h1>
-          <p className="text-muted mb-4">
-          Provides complete packaging solutions to various industries.
+          <p className="hero-para text-muted mb-4">
+          <span>ALKA INDUSTRIES</span> is packaging company mainly focusing on manufacturing & supply of export quality <span>pine-wooden boxes, jungle-wooden boxes, ply-wooden boxes</span> and providing complete packaging solutions to various industries. Our company is committed to supply sustainable products & services understanding customer needs.
           </p>
-          <div className="hero-buttons">
-            <a href="#" className="btn btn-primary me-3">Order Now</a>
-          </div>
         </div>
-        <div className="hero-image col-lg-6 col-md-12">
+        <div className="col-lg-6 col-md-12 col-sm-12">
           <img
+            className="hero-image"
             src="/industry.jpg"
             alt="Industrial Solutions"
           />
@@ -27,15 +25,16 @@ const About = () => {
       </section>
 
       <section className="info-section d-flex align-items-center justify-content-between p-5 bg-white flex-wrap">
-        <div className="info-image col-lg-6 col-md-12">
+        <div className="col-lg-6 col-md-12">
         <img
-            src="/industry.jpg"
+            className="info-image"
+            src="/mission.jpg"
             alt="Industrial Solutions"
           />
         </div>
         <div className="info-text col-lg-6 col-md-12">
-          <h2 className="display-5 fw-bold text-dark">
-          Our Mission
+          <h2 className="display-5 text-dark">
+          <span>Our Mission </span>
           </h2>
           <p className="text-muted">
           Provide innovative, affordable & high-quality packaging to protect our customer’s

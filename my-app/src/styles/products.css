@@ -10,7 +10,7 @@
     color: #7a40f2;
     background-color: transparent;
     border: 1px solid #7a40f2;
-    margin: 0 5px;
+    margin: 3px 5px;
     padding: 5px 15px;
     border-radius: 20px;
     font-weight: bold;
@@ -39,7 +39,7 @@
 
   /* Services Section Styles */
 .services-section {
-    height: 60vh;
+    height: 100vh;
     background-color: #ffffff; /* White background */
 }
 
@@ -60,8 +60,10 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.service-card .icon img {
-    max-width: 80px;
+.service-card img {
+    max-width: 20vw;
+    height: 40vh;
+    object-fit: contain;
 }
 
 .service-card h5 {

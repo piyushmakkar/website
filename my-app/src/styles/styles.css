@@ -49,8 +49,9 @@ header nav a:hover {
     text-align: center;
     height: 100vh;
 }
-.hero .hero-content h1 {
+.hero .hero-content h1 p{
     color: #5a2d82;
+    margin-left: 20px;
 }
 .hero .hero-content span {
     color: #5a2d82; /* Bootstrap blue */
@@ -58,7 +59,20 @@ header nav a:hover {
 .hero .hero-buttons a {
     margin: 5px 10px;
 }
-
+.hero .hero-para span{
+    color: #212529;
+    font-weight: bold;
+}
+/* Large screens only */
+@media (min-width: 1024px) {
+    .hero-image {
+        width: 60%;
+        margin-left: 100px;
+    }
+    .info-image {
+        width: 65%;
+    }
+}
 /* Info Section */
 .info-section {
     background-color: #ffffff;
@@ -92,5 +106,6 @@ header nav a:hover {
 }
 
 .header-image{
-    height: 10vh;
+    margin-left: 10px;
+    height: 11vh;
 }
