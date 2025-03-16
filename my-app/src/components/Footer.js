@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="list-unstyled mt-3">
             <li>
               1/21, Horizon Industrial Park,<br></br>
-              At Post Bamangam, Tal. Karjan, <br></br>
+              At & Post Bamangam, Tal. Karjan, <br></br>
               Dist. Vadodara - 391243, Gujarat (India)
             </li>
             </ul>
