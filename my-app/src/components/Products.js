@@ -19,7 +19,6 @@ const Products = () => {
     { id: "3-b", category: "Wooden Boxes", title: "Corrugated (3 to 11 ply) Boxes", img: "/Boxes/box3.png" },
     { id: "4-b", category: "Wooden Boxes", title: "Plywood Boxes", img: "/Boxes/box4.png" },
     { id: "5-b", category: "Wooden Boxes", title: "Nail-less instant plywood boxes", img: "/Boxes/box5.png" },
-    { id: "6-b", category: "Wooden Boxes", title: "Wooden Pallets", img: "/Boxes/box6.png" },
     { id: "1-t", category: "Tapes", title: "BOPP Adhesive-tapes (Regular)", img: "/Tape/tape1.png" },
     { id: "2-t", category: "Tapes", title: "Customized BOPP Adhesive-tapes with Company Logo", img: "/Tape/tape2.png" },
     { id: "3-t", category: "Tapes", title: "Brown Adhesive Tapes", img: "/Tape/tape3.png" },
@@ -29,12 +28,11 @@ const Products = () => {
     { id: "2-f", category: "Stretch Film", title: "Polymer bonded masking Film", img: "/Film/film2.png" },
     { id: "3-f", category: "Stretch Film", title: "Machine Grade Stretch Film", img: "/Film/film3.png" },
     { id: "4-f", category: "Stretch Film", title: "Manual Stretch Wrapping", img: "/Film/film4.png" },
-    { id: "1-o-r", category: "Other", title: "Box Strapping Roll", img: "/Other/other-roll1.jpg" },
-    { id: "2-o-r", category: "Other", title: "Pet Strapping Roll", img: "/Other/other-roll2.png" },
-    { id: "3-o-r", category: "Other", title: "Strapping Roll Dispenser", img: "/Other/other-roll3.png" },
-    { id: "4-o-r", category: "Other", title: "Corrugated Paper Roll for Packaging", img: "/Other/other-roll4.png" },
-    { id: "1-o-b", category: "Other", title: "Air Cushion Bags", img: "/Other/other-bag1.png" },
-    { id: "2-o-b", category: "Other", title: "Export Quality VCI Bags (Blue)", img: "/Other/other-bag2.png" },
+    { id: "1-o-r", category: "Others", title: "Box Strapping Roll", img: "/Other/other-roll1.jpg" },
+    { id: "3-o-r", category: "Others", title: "Strapping Roll Dispenser", img: "/Other/other-roll2.png" },
+    { id: "4-o-r", category: "Others", title: "Corrugated Paper Roll for Packaging", img: "/Other/other-roll3.png" },
+    { id: "1-o-b", category: "Others", title: "Air Cushion Bags", img: "/Other/other-bag1.png" },
+    { id: "2-o-b", category: "Others", title: "Export Quality VCI Bags (Blue)", img: "/Other/other-bag2.png" },
     
   ];
 
@@ -47,7 +45,7 @@ const Products = () => {
           </h2>
           <br/>
           <div className="text-center mb-4">
-            {["Pallets","Wooden Boxes","Tapes","Sheets","Stretch Film","Other"].map((category) => (
+            {["Pallets","Wooden Boxes","Tapes","Sheets","Stretch Film","Others"].map((category) => (
               <button
                 key={category}
                 className={`btn btn-category ${activeCategory === category ? "active" : ""}`}
@@ -91,21 +89,21 @@ const Products = () => {
             <div className="col-md-4">
               <div className="service-card p-4">
                 <h5 className="fw-bold">Product Protection</h5>
-                <img src="/protection.jpg"/>
+                <img src="/services/protection.jpg"/>
               </div>
             </div>
             {/* Service Card 2 */}
             <div className="col-md-4">
               <div className="service-card p-4">
                 <h5 className="fw-bold">Extend Shelf-Life</h5>
-                <img src="/shelfLife.jpg"/>
+                <img src="/services/shelfLife.jpg"/>
               </div>
             </div>
             {/* Service Card 3 */}
             <div className="col-md-4">
               <div className="service-card p-4">
                 <h5 className="fw-bold">A Better User Experience</h5>
-                <img src="/ux.jpg"/>
+                <img src="/services/ux.jpg"/>
               </div>
             </div>
           </div>
