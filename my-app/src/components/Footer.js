@@ -58,27 +58,11 @@ const Footer = () => {
           <div className="col-md-3">
             <h6 className="fw-bold">Contact us</h6>
             <ul className="list-unstyled mt-3">
-              <li><a href="#">Phone : +91 816092116</a></li>
-              <li><a href="#contact">Email : enquiry@alkaindustries.co.in</a></li>
+              <li>Phone : 816092116, 9426972271</li>
+              <li>Email : enquiry@alkaindustries.co.in</li>
             </ul>
-            <form className="newsletter-form mt-3">
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Your Email Address"
-                  required
-                />
-                <input
-                  type="enquiry"
-                  className="form-control"
-                  placeholder="Your Enquiry"
-                  required
-                />
-                <button className="btn btn-primary" type="submit">Send Enquiry</button>
-            </form>
           </div>
         </div>
-        <hr className="my-4" />
       </div>
     </footer>
   );

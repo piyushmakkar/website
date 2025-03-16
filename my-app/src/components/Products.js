@@ -20,17 +20,19 @@ const Products = () => {
     { id: "4-b", category: "Wooden Boxes", title: "Plywood Boxes", img: "/Boxes/box4.png" },
     { id: "5-b", category: "Wooden Boxes", title: "Nail-less instant plywood boxes", img: "/Boxes/box5.png" },
     { id: "6-b", category: "Wooden Boxes", title: "Wooden Pallets", img: "/Boxes/box6.png" },
-    { id: "1-t", category: "Tape", title: "BOPP Cello-tape (Regular)", img: "/Tape/tape1.png" },
-    { id: "2-t", category: "Tape", title: "Customized BOPP Cello-tape with Company Logo", img: "/Tape/tape2.png" },
-    { id: "3-t", category: "Tape", title: "Brown Adhesive Cello Tape", img: "/Tape/tape3.png" },
+    { id: "1-t", category: "Tapes", title: "BOPP Adhesive-tapes (Regular)", img: "/Tape/tape1.png" },
+    { id: "2-t", category: "Tapes", title: "Customized BOPP Adhesive-tapes with Company Logo", img: "/Tape/tape2.png" },
+    { id: "3-t", category: "Tapes", title: "Brown Adhesive Tapes", img: "/Tape/tape3.png" },
     { id: "1-s", category: "Sheets", title: "EPE Foam Sheets", img: "/Sheet/sheet1.png" },
     { id: "2-s", category: "Sheets", title: "Air Bubble Sheets", img: "/Sheet/sheet2.png" },
     { id: "1-f", category: "Stretch Film", title: "LDPE Stretch Film", img: "/Film/film1.png" },
-    { id: "2-f", category: "Stretch Film", title: "Polymer bonded masking Film ", img: "/Film/film2.png" },
-    { id: "1-o-r", category: "Other", title: "Box Strapping Rolls", img: "/Other/other-roll1.jpg" },
-    { id: "2-o-r", category: "Other", title: "Pet Starpping Rolls", img: "/Other/other-roll2.png" },
-    { id: "3-o-r", category: "Other", title: "Starpping Roll Dispenser", img: "/Other/other-roll3.png" },
-    { id: "4-o-r", category: "Other", title: "Congurated Paper Roll for Packaging", img: "/Other/other-roll4.png" },
+    { id: "2-f", category: "Stretch Film", title: "Polymer bonded masking Film", img: "/Film/film2.png" },
+    { id: "3-f", category: "Stretch Film", title: "Machine Grade Stretch Film", img: "/Film/film3.png" },
+    { id: "4-f", category: "Stretch Film", title: "Manual Stretch Wrapping", img: "/Film/film4.png" },
+    { id: "1-o-r", category: "Other", title: "Box Strapping Roll", img: "/Other/other-roll1.jpg" },
+    { id: "2-o-r", category: "Other", title: "Pet Strapping Roll", img: "/Other/other-roll2.png" },
+    { id: "3-o-r", category: "Other", title: "Strapping Roll Dispenser", img: "/Other/other-roll3.png" },
+    { id: "4-o-r", category: "Other", title: "Corrugated Paper Roll for Packaging", img: "/Other/other-roll4.png" },
     { id: "1-o-b", category: "Other", title: "Air Cushion Bags", img: "/Other/other-bag1.png" },
     { id: "2-o-b", category: "Other", title: "Export Quality VCI Bags (Blue)", img: "/Other/other-bag2.png" },
     
@@ -45,7 +47,7 @@ const Products = () => {
           </h2>
           <br/>
           <div className="text-center mb-4">
-            {["Pallets","Wooden Boxes","Tape","Sheets","Stretch Film","Other"].map((category) => (
+            {["Pallets","Wooden Boxes","Tapes","Sheets","Stretch Film","Other"].map((category) => (
               <button
                 key={category}
                 className={`btn btn-category ${activeCategory === category ? "active" : ""}`}
@@ -76,13 +78,13 @@ const Products = () => {
       <section id="services" className="services-section py-5">
         <div className="container">
           <h2 className="text-center fw-bold mb-5">
-            <span className="highlight">What we offer ?</span>
+            <span className="highlight">What we offer</span>
           </h2>
-          <p className="text-center">We at ALKA INDUSTRIES, offer enhanced innovative packaging solution which 
-            can improve product protection, extend shelf-life, and provide a better user experience. 
+          <p className="service-text text-center">We at ALKA INDUSTRIES, offer enhanced innovative packaging solution which 
+            can improve product protection, extend shelf-life and provide a better user experience. 
             We develop and supply wide range of standard packaging as well as customized packaging according 
             to customer needs for all sectors both in house & on-site packaging. Our core in-house business is 
-            to supply export quality of Pine Wooden Boxes, Jungle Wood Boxes, Plywood Boxes & Corrugated Boxes
+            to supply export quality of Pine Wooden Boxes, Jungle Wood Boxes, Plywood Boxes & Corrugated Boxes.
           </p>
           <div className="row text-center">
             {/* Service Card 1 */}

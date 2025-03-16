@@ -22,16 +22,16 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link text-dark fw-bold" href="#about">About Us</a>
+                <a className="nav-link text-dark" href="#about">About us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fw-bold" href="#menu">Products</a>
+                <a className="nav-link text-dark" href="#menu">Products</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fw-bold" href="#services">Services</a>
+                <a className="nav-link text-dark" href="#services">Services</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fw-bold" href="#contact">Contact Us</a>
+                <a className="nav-link text-dark" href="#contact">Contact us</a>
               </li>
             </ul>
           </div>

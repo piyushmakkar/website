@@ -81,6 +81,29 @@ header nav a:hover {
 }
 
 /* Large screens only */
+@media (max-width: 767px) {
+    .hero-image {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .info-image {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-image {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info-image {
+        width: 80%;
+    }
+}
+
 @media (min-width: 1024px) {
     .hero-image {
         width: 60%;
@@ -90,6 +113,7 @@ header nav a:hover {
         width: 65%;
     }
 }
+
 
 /* Info Section */
 .info-section {

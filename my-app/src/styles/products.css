@@ -32,9 +32,16 @@
   }
   
   .menu-section .card img {
+    margin-top: 10px;
     border-radius: 10px;
     max-height: 200px;
     object-fit: contain;
+  }
+  .menu-section .card-title {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Services Section Styles */
@@ -85,6 +92,9 @@
 
 .learn-more:hover {
     color: #472464;
+}
+.service-text{
+font-size: medium;
 }
 
 /* Mobile Styles */
