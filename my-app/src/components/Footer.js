@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="col-md-3">
             <h6 className="fw-bold">Contact us</h6>
             <ul className="list-unstyled mt-3">
-              <li>Phone : 816092116, 9426972271</li>
+              <li>Phone : 8160921116, 9426972271</li>
               <li>Email : enquiry@alkaindustries.co.in</li>
             </ul>
           </div>
